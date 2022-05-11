@@ -1,0 +1,218 @@
+@media screen and (max-width: 2560px) {
+  .productContainer {
+    margin: 9% auto;
+    width: 80%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  /* background color and font*/
+  body {
+    margin: auto;
+    background-color: lightyellow;
+    font-family: "Courier New", Courier, monospace;
+  }
+  /* Hero Image */
+  .hero {
+    background-image: url("/images/duckderby.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    margin: 4%;
+    padding-top: 8%;
+    height: 900px;
+    width: auto;
+  }
+  .heroText {
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    color: white;
+    font-size: 80px;
+  }
+  /* Nav Bar */
+  .navBar {
+    width: 100%;
+    grid-column-gap: 10px;
+    display: grid;
+    background-color: lightblue;
+    margin-top: 01%;
+  }
+  .navGrid1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+  }
+  .navGrid2 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+  }
+  .navGrid3 {
+    grid-column-start: 8;
+    grid-column-end: 10;
+  }
+  /* Contact CSS */
+  #contactTitle {
+    color: black;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 90px;
+    padding: 1%;
+    font-weight: bold;
+  }
+  /* product.html */
+  .productContainer {
+    margin: 9% auto;
+    height: 100%;
+    width: 70%;
+    grid-column-gap: 5px;
+    display: grid;
+    background-color: white;
+    border-radius: 12px;
+    border: black;
+    border-style: solid;
+    border-width: 10px;
+  }
+  img {
+    height: 400px;
+    width: 400px;
+  }
+  .angleDuck {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 1;
+  }
+  .argDuck {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row: 1;
+  }
+  .fireDuck {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 2;
+  }
+  .futDuck {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row: 2;
+  }
+  .glassesDuck {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 3;
+  }
+  .gradDuck {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row: 3;
+  }
+  .hipDuck {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 4;
+  }
+  .nunDuck {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row: 4;
+  }
+  .princeDuck {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 5;
+  }
+  .scubaDuck {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row: 5;
+  }
+  .valDuck {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 7;
+  }
+  .wedDucks {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row: 7;
+  }
+  .name {
+    border: black;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 12px;
+    margin: 3px;
+    padding: 2px;
+  }
+  .center {
+    text-align: center;
+  }
+  .links {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+  }
+  /* Setting the styling for the form */
+  #contact-form {
+    color: black;
+    text-align: center;
+    height: 30%;
+    width: 50%;
+    background-color: lightblue;
+    border-radius: 12px;
+    border-width: 1px;
+    margin: 2% auto;
+    padding: 2%;
+    border: 50px;
+  }
+  /* sets the list items next to the text field box */
+  label {
+    display: block;
+  }
+  input {
+    height: 40px;
+    width: 50%;
+  }
+  /* increases the size of the fonts */
+  li {
+    font-size: 40px;
+    line-height: 43px;
+  }
+  /* user cant increase or decrease the size of the box for questions or comments. */
+  #message {
+    resize: none;
+    height: 40px;
+    width: 50%;
+  }
+  /* change button size */
+  #button {
+    margin-top: 10px;
+    height: 35px;
+    width: 15%;
+  }
+  /* Footer */
+  .footer {
+    font-size: 40px;
+    width: 100%;
+    background-color: lightblue;
+    text-align: center;
+    color: black;
+    position: absolute;
+  }
+  .logo {
+    height: 5%;
+    width: 5%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .productContainer {
+    margin: 9% auto;
+    width: 80%;
+  }
+  img {
+    height: 200px;
+    width: 200px;
+  }
+}
